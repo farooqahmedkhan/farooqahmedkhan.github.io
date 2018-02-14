@@ -59,6 +59,10 @@ h2 {
   color: #BD5D38;
 }
 
+div.resume-content p {
+  text-align: justify;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase;
@@ -144,8 +148,4 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
-}
-
-div.resume-content p {
-  text-align: justify;
 }
