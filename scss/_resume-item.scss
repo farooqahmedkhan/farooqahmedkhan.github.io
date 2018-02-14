@@ -26,3 +26,9 @@ section.resume-section {
     padding-bottom: 3rem !important;
   }
 }
+
+@media (max-width: 500px) {
+  div.my-auto h1 {
+    font-size:5rem !important;
+  }
+}
