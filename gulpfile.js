@@ -6,6 +6,7 @@ var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
 var browserSync = require('browser-sync').create();
+var pug = require('gulp-pug');
 
 // Set the banner content
 var banner = ['/*!\n',
@@ -119,7 +120,7 @@ gulp.task('js:minify', function() {
 gulp.task('js', ['js:minify']);
 
 // Default task
-gulp.task('default', ['css', 'js', 'vendor']);
+// gulp.task('default', ['css', 'js', 'vendor']);
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
@@ -134,5 +135,13 @@ gulp.task('browserSync', function() {
 gulp.task('dev', ['css', 'js', 'browserSync'], function() {
   gulp.watch('./scss/*.scss', ['css']);
   gulp.watch('./js/*.js', ['js']);
-  gulp.watch('./*.html', browserSync.reload);
+  gulp.watch(['./src/*.pug', './src/partials/*.pug'], ['pug', browserSync.reload]);
+});
+
+
+gulp.task('pug', function(){
+  return gulp.src('./src/*.pug')
+  .pipe(pug({}))
+  .pipe(rename('index.html'))
+  .pipe(gulp.dest(''));
 });
