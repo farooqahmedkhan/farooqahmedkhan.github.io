@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Bai+Jamjuree|Montserrat");
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Bai Jamjuree', sans-serif;
   padding-top: 54px;
   color: #868e96;
 }
@@ -44,7 +45,7 @@ h2 {
 }
 
 .list-social-icons a:hover {
-  color: #451910;
+  color: #BD5D38;
 }
 
 .list-social-icons a .fa-lg {
@@ -56,7 +57,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #451910;
+  color: #BD5D38;
 }
 
 div.resume-content p {
@@ -141,19 +142,19 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #451910 !important;
+  background-color: #BD5D38 !important;
 }
 
 .text-primary {
-  color: #451910 !important;
+  color: #BD5D38 !important;
 }
 
 a {
-  color: #451910;
+  color: #BD5D38;
 }
 
 a:hover, a:focus, a:active {
-  color: #070302;
+  color: #824027;
 }
 
 .img-profile-nav {
