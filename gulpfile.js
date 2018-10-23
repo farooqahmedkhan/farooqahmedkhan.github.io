@@ -135,7 +135,9 @@ gulp.task('browserSync', function() {
 gulp.task('dev', ['css', 'js', 'browserSync'], function() {
   gulp.watch('./scss/*.scss', ['css']);
   gulp.watch('./js/*.js', ['js']);
-  gulp.watch(['./src/*.pug', './src/partials/*.pug'], ['pug', browserSync.reload]);
+  gulp.watch([
+    './src/**/**/*.pug', 
+  ], ['pug', browserSync.reload]);
 });
 
 

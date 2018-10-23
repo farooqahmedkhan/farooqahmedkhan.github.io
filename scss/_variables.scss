@@ -30,15 +30,23 @@ $salmon:  #FA8072 !default;
 $dark-orange: #FF5733 !default;
 $choclate: #451910 !default;
 
-$primary:       $orange !default;
-$secondary:     $cyan !default;
-$success:       $green !default;
-$info:          $cyan !default;
-$warning:       $yellow !default;
-$danger:        $red !default;
-$light:         $teak !default;
-$dark:          $cyan !default;
+// pallette 1
+$tomato: #FF6542 !default;             
+$desert-sand: #E0CBA8 !default;        
+$pine-apple: #564154 !default;         
+$weldon-blue: #779FA1 !default;        
+$plum: #88498F !default;               
+
+$primary:           $cyan !default;
+$secondary:         $weldon-blue !default;
+$light:             $gray-900 !default;
+$dark:              $gray-200 !default;
+$background:        $white !default;
+
+$success:           $green !default;
+$info:              $cyan !default;
+$warning:           $yellow !default;
+$danger:            $red !default;
 
 // Page Variables
-
 $sidebar-base-width: 17rem;

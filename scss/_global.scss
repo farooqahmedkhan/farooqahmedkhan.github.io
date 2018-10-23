@@ -3,7 +3,8 @@
 body {
   @include body-font;
   padding-top: 54px;
-  color: $gray-600;
+  color: $light;
+  background: $background !important;
 }
 @media (min-width: 992px) {
   body {
