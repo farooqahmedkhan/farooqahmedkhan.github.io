@@ -1,0 +1,13 @@
+:root {
+    --color-level-1: #b3cde0; /* rgb(179,205,224) */
+    --color-level-2: #6497b1; /* rgb(100,151,177) */
+    --color-level-3: #005b96; /* rgb(0,91,150)    */
+    --color-level-4: #03396c; /* rgb(3,57,108)    */
+    --color-level-5: #011f4b; /* rgb(1,31,75)     */
+
+    --primary-color: var(--color-level-5);
+    --secondary-color: var(--color-level-4);
+
+    --primary-bg: var(--color-level-1);
+    --secondary-bg: var(--color-level-2);
+}
