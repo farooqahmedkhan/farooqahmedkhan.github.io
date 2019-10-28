@@ -2,15 +2,13 @@ import React from 'react';
 
 function NavigationItem(props){
     return (
-        <li className="column">
-            <div className="level">
-                <div className="level-left">
+        <li className="column is-mobile">
+            <button class="button is-rounded is-outlined is-link">
+                <span class="icon">
                     <i className={props.icon}></i>
-                </div>
-                <div className="level-right">
-                    <h2>&nbsp;{props.text}</h2>
-                </div>
-            </div>
+                    </span>
+                <span>{props.text}</span>
+            </button>
         </li>
     );
 }

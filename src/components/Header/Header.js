@@ -7,7 +7,7 @@ function Header(){
         <nav>
             <div className="level">
                 <div className="level-item has-text-centered">
-                    <figure className="image is-128x128">
+                    <figure className="image is-128x128 ">
                         <img className="is-rounded" src="profile_large.jpg" alt="Farooq Ahmed Khan" />
                     </figure>
                 </div>

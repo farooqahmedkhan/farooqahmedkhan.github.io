@@ -5,7 +5,11 @@
 @import url('./styles/bulma.css');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-
+:root {
+  --large-font: 20pt;
+  --medium-font: 10pt;
+  --small-font: 5pt;
+}
 
 body {
   margin: 0;
@@ -20,3 +24,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+h1 { font-size: var(--large-font) !important;}
