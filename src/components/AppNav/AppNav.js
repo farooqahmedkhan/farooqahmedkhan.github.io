@@ -37,7 +37,7 @@ class AppNav extends Component {
     render() {
         return (
             <header>
-                <nav id="sticky-navbar" class="navbar has-shadow">
+                <nav id="sticky-navbar" class="navbar has-shadow has-text-centered">
                     <div class="navbar-brand">                
                         <figure class="image is-64x64">
                             <img src="profile_large.jpg" class="is-rounded" alt="FAK"  />
@@ -48,22 +48,30 @@ class AppNav extends Component {
                     </div>
     
                     <div class="navbar-menu">
-                        <div class="navbar-start" props={this.state.extend_burger_nav}>
-                            <a class="navbar-item has-text-centered">
-                                Skills
+                        <div class="navbar-start">
+                            <a class="navbar-item has-text-centered is-active">
+                                HOME
                             </a>
     
                             <a class="navbar-item has-text-centered">
-                                Experience
+                                ABOUT
+                            </a>     
+                            <a class="navbar-item has-text-centered">
+                                SKILLS
+                            </a>                                                    
+                            <a class="navbar-item has-text-centered">
+                                EXPERIENCE
                             </a>
     
                             <a class="navbar-item has-text-centered">
-                                Portfolio
+                                EDUCATION
                             </a>
-    
                             <a class="navbar-item has-text-centered">
-                                Contact
-                            </a>
+                                PORTFOLIO
+                            </a>     
+                            <a class="navbar-item has-text-centered">
+                                CONTACT ME
+                            </a>     
                         </div>
                     </div>
                 </nav>
