@@ -3,7 +3,7 @@ import './AppHeroBanner.css';
 
 function AppHeroBanner(props) {
     return (
-        <section class="hero is-fullheight has-background-info">
+        <section id="banner" class="hero is-fullheight has-background-info">
             <div class="hero-body">
                 <div class="container has-text-left">
                     <h1 class="title has-text-white is-size-6-mobile is-size-4-tablet is-size-3-desktop is-size-2-widescreen is-size-1-fullhd">
