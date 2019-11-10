@@ -7,6 +7,12 @@
     margin: 0.5rem 0 0.1rem 0.5rem;
 }
 
+.navbar-brand .menu-text {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 1.5rem 0 0.1rem 1.5rem;
+}
+
 .navbar .navbar-brand .navbar-burger {
     margin-top: 1.5rem;
     margin-right: 1rem;
