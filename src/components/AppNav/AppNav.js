@@ -42,11 +42,9 @@ class AppNav extends Component {
                         <figure class="image is-64x64">
                             <img src="profile_large.jpg" class="is-rounded" alt="FAK"  />
                         </figure>
-                        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onClick={() => this.toggleMobileNav()}>
-                            <span aria-hidden="true"></span>
-                            <span aria-hidden="true"></span>
-                            <span aria-hidden="true"></span>
-                        </a>
+                        
+                        <span class="navbar-burger burger icon is-large" onClick={() => this.toggleMobileNav()}><i class="fa fa-bars fa-2x"></i></span>
+                        {/* {this.state.extend_burger_nav === true && (<span class="navbar-burger burger icon is-large" onClick={() => this.toggleMobileNav()}><i class="fa fa-close fa-3x"></i></span>)}                         */}
                     </div>
     
                     <div class="navbar-menu">

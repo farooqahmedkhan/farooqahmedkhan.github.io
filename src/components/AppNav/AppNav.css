@@ -1,15 +1,27 @@
 .navbar .navbar-brand figure {
-    margin: 0.5rem 0 0 0.5rem;
+    margin: 0.5rem 0 0.1rem 0.5rem;
 }
 
 .navbar .navbar-brand .navbar-burger {
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
 }
 
 .navbar-start {
     width: 100%;
+    height: 72px !important;
 }
 
 .navbar-start .navbar-item {
     flex-grow: 2;
+}
+
+.navbar-start .navbar-item:hover {
+    color: teal;
+    font-weight: bold;
+    border: 2px solid teal;
+}
+
+.navbar.has-shadow {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
