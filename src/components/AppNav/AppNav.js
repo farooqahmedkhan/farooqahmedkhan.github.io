@@ -4,10 +4,7 @@ import './AppNav.css';
 class AppNav extends Component {    
     constructor(props){
         super(props);
-        this.state = {
-            extend_burger_nav: false
-        };
-
+        this.state = Object.assign({}, {extend_burger_nav: false, menu_items: props.navigation});                
         window.onscroll = (e) => {                        
             this.stickNavToTop(e);
         }
@@ -19,7 +16,7 @@ class AppNav extends Component {
      */
     stickNavToTop = (scrollEvent) => {
         // fixed top nav bar            
-        if(window.scrollY > document.getElementById('banner').offsetHeight)
+        if(window.scrollY > document.getElementById('home').offsetHeight)
             document.getElementById('sticky-navbar').classList.add(['is-fixed-top']);
         else
             document.getElementById('sticky-navbar').classList.remove(['is-fixed-top']);                        
@@ -37,42 +34,15 @@ class AppNav extends Component {
     render() {
         return (
             <header>
-                <nav id="sticky-navbar" class="navbar has-shadow has-text-centered">
-                    <div class="navbar-brand">                
-                        {/* <figure class="image is-64x64">
-                            <img src="profile_large.jpg" class="is-rounded" alt="FAK"  />
-                        </figure> */}
-                        <span class="menu-text is-hidden-fullhd is-hidden-widescreen is-hidden-desktop">MENU</span>
-                        
-                        <span class="navbar-burger burger icon is-large" onClick={() => this.toggleMobileNav()}><i class="fa fa-bars fa-2x"></i></span>
-                        {/* {this.state.extend_burger_nav === true && (<span class="navbar-burger burger icon is-large" onClick={() => this.toggleMobileNav()}><i class="fa fa-close fa-3x"></i></span>)}                         */}
+                <nav id="sticky-navbar" className="navbar has-shadow has-text-centered">
+                    <div className="navbar-brand">                                        
+                        <span className="menu-text is-hidden-fullhd is-hidden-widescreen is-hidden-desktop">MENU</span>                        
+                        <span className="navbar-burger burger icon is-large" onClick={() => this.toggleMobileNav()}><i className="fa fa-bars fa-2x"></i></span>                        
                     </div>
-    
-                    <div class="navbar-menu">
-                        <div class="navbar-start">
-                            <a class="navbar-item has-text-centered is-active">
-                                HOME
-                            </a>
-    
-                            <a class="navbar-item has-text-centered">
-                                ABOUT
-                            </a>     
-                            <a class="navbar-item has-text-centered">
-                                SKILLS
-                            </a>                                                    
-                            <a class="navbar-item has-text-centered">
-                                EXPERIENCE
-                            </a>
-    
-                            <a class="navbar-item has-text-centered">
-                                EDUCATION
-                            </a>
-                            <a class="navbar-item has-text-centered">
-                                PORTFOLIO
-                            </a>     
-                            <a class="navbar-item has-text-centered">
-                                CONTACT ME
-                            </a>     
+            
+                    <div className="navbar-menu">
+                        <div className="navbar-start">                            
+                            { this.state.menu_items.map(i => <a key={i.key} href={'#' + i.name.toLowerCase()} className="navbar-item has-text-centered">{i.name.toUpperCase()}</a>)}    
                         </div>
                     </div>
                 </nav>

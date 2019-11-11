@@ -1,4 +1,4 @@
-.hero {
+#home {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;    
@@ -7,7 +7,7 @@
 }
 
 @media only screen and (max-width: 768px) {    
-    .hero {
+    #home {
         background-image: url('./images/app-hero-banner-768x512.jpg');
     }
 }
@@ -18,7 +18,7 @@
         position: absolute; 
     }
     .subtitle.is-size-7-mobile { font-size: 0.60rem !important;}
-    .hero {                
+    #home {                
         background-image: url('./images/app-hero-banner-500x333.jpg');
     }    
 }
