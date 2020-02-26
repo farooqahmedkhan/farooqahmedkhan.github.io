@@ -1,8 +1,21 @@
 :host {
     width: 100%;    
     nav {    
-        a {
-            color: white;
+        & a {
+            color: white;                
         }
+
+        & .mobile-nav {
+            display: none;
+        }
+    }
+   
+    @media only screen  and (max-width: 525px) {
+        nav  {
+            & .hide-on-mobile {
+                display: none;
+            }
+        }
+
     }
 }
