@@ -1,48 +1,31 @@
 {
-    "title": "Resume",
-    "name": "startbootstrap-resume",
-    "version": "4.0.0",
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://startbootstrap.com/template-overviews/resume",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
-    },
-    "dependencies": {
-        "bootstrap": ">=4.1.2",
-        "devicons": "^1.8.0",
-        "gulp-cli": "^2.0.1",
-        "gulp-pug": "^4.0.1",
-        "jquery": "3.3.1",
-        "node-sass": "^4.11.0",
-        "pug": "^2.0.3",
-        "simple-line-icons": "^2.4.1"
-    },
-    "devDependencies": {
-        "assemble": "^0.24.3",
-        "browser-sync": "^2.23.6",
-        "gulp": "^4.0.0",
-        "gulp-clean-css": "^3.9.2",
-        "gulp-header": "^2.0.1",
-        "gulp-rename": "^1.4.0",
-        "gulp-sass": "^3.2.1",
-        "gulp-uglify": "^3.0.0"
-    }
+  "name": "fak-personal-website",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest --environment jsdom --root src/",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "pinia": "^2.0.23",
+    "vue": "^3.2.41",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^3.1.2",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/test-utils": "^2.1.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "jsdom": "^20.0.1",
+    "postcss": "^8.4.18",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.2.1",
+    "vite": "^3.1.8",
+    "vitest": "^0.24.3"
+  }
 }

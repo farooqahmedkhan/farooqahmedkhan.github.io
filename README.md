@@ -1,9 +1,41 @@
-[farooqahmedkhan.github.io](https://farooqahmedkhan.github.io) | [farooqk.work@gmail.com](mailto:farooqk.work@gmail.com)
+# fak-personal-website
 
+This template should help get you started developing with Vue 3 in Vite.
 
-# Farooq Ahmed Khan
-#### Software Developer | Frontend - Angular, Vue JS | Backend - Laravel, Slim, Custom PHP
+## Recommended IDE Setup
 
-Software developer with over 8 years of hands on experience. Well versed with application architecture patterns, OOP and test driven development primarily in C#, PHP and Javascript. Apart from technical abilities, I strongly believe in team effort and taking ownership to ensure delivery. 
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
+## Customize configuration
 
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Run Unit Tests with [Vitest](https://vitest.dev/)
+
+```sh
+npm run test:unit
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
