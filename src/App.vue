@@ -4,7 +4,7 @@
           <img class="w-48 h-48 rounded-full mx-auto" src="/farooq-ahmed.jpg" alt="Hi! I'm Farooq | farooqahmedkhan.github.io" />
           <div class="mx-auto py-4 text-center justify-center">
             <h1 class="text-xl">Farooq Ahmed</h1>
-            <p>Software developer / architect</p>            
+            <p>Software Developer</p>            
             <small>
               <a href="//en.wikipedia.org/wiki/Muzaffargarh" target="_blank" class="underline">Muzaffargarh , Pakistan</a>
             </small>
