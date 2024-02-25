@@ -4,9 +4,9 @@
           <img class="w-48 h-48 rounded-full mx-auto" src="/farooq-ahmed.jpg" alt="Hi! I'm Farooq | farooqahmedkhan.github.io" />
           <div class="mx-auto py-4 text-center justify-center">
             <h1 class="text-xl">Farooq Ahmed</h1>
-            <p>Software Developer</p>            
+            <p>Software Architect</p>            
             <small>
-              <a href="//en.wikipedia.org/wiki/Muzaffargarh" target="_blank" class="underline">Muzaffargarh , Pakistan</a>
+              <a href="//en.wikipedia.org/wiki/Lahore" target="_blank" class="underline">Lahore , Pakistan</a>
             </small>
           </div>
         </header>
@@ -19,7 +19,8 @@
             <a href="#" class="flex p-1 bg-purple-500 text-xs rounded-md">Redis</a>
             <a href="#" class="flex p-1 bg-purple-500 text-xs rounded-md">AWS</a>
             <a href="#" class="flex p-1 bg-purple-500 text-xs rounded-md">Sockets</a>
-            <a href="#" class="flex p-1 bg-purple-500 text-xs rounded-md">Firebase</a>                      
+            <a href="#" class="flex p-1 bg-purple-500 text-xs rounded-md">Firebase</a>
+            <a href="#" class="flex p-1 bg-purple-500 text-xs rounded-md">Supabase</a>                      
           </div>
 
           
