@@ -1,7 +1,7 @@
 <template>
     <main class="container h-screen mx-auto flex flex-col items-center justify-center w-full">
         <header class="mx-auto flex flex-col">
-          <img class="w-48 h-48 rounded-full mx-auto" src="/farooq-ahmed.jpg" alt="Hi! I'm Farooq | farooqahmedkhan.github.io" />
+          <img class="w-48 h-48 rounded-full mx-auto" src="/farooq-ahmed-02.jpg" alt="Hi! I'm Farooq | farooqahmedkhan.github.io" />
           <div class="mx-auto py-4 text-center justify-center">
             <h1 class="text-xl">Farooq Ahmed</h1>
             <p>Software Architect</p>            
